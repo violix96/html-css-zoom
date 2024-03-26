@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 100px 0px;
+    background-color: blue;
+}
+
+.container{
+    width: 150vh;
+    margin: 0 auto;
+    
+   
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px;  
+}
+
+.col-33{
+    width: calc(100% / 8);
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 3px;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
