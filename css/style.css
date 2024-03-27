@@ -3,12 +3,21 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+header{ 
+    /* background-color: red; */
+    height: 50px;
+
+}
 
 main{
     position: fixed;
     left: 0;
     right: 0;
     background-color: black;
+    height: calc(100% - 125px)
 }
 
 footer{
@@ -17,6 +26,7 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
+    height: 25px;
 }
 
 .container{
@@ -38,13 +48,14 @@ footer{
 
 .col-33{
     width: calc(100% / 7 - 6px);
-    height: 100px;
-    background-image: url(https://www.nieddittas.it/wp-content/uploads/2023/06/spiagge-Olbia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border: 1px solid black;
     margin: 3px;
 
+}
+
+.content img{
+    max-width: 100%;
+    height: 100%;
 }
 
 .justify-center{
@@ -58,7 +69,9 @@ footer{
 .pz-5{
     padding: 0px 5px;
 }
-
+.py-10{
+    padding: 10px 0px;
+}
 .py-20{
     padding: 20px 0px;
 }
@@ -92,3 +105,5 @@ footer{
 .bg-green{
     background-color: green;
 }
+
+
